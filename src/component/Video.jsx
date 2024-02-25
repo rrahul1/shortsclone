@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import "./Video.css";
 
 function Videos({ id, url, like, title }) {
-   const [playing, setPlaying] = useState(false);
+   const [setPlaying] = useState(false);
    const [vidLike, setVidLike] = useState(false);
 
    const videoRef = useRef(null);
